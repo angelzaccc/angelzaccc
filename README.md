@@ -1,4 +1,27 @@
-
+<h1>I'm Angela, I'm a</h1>
+<div class="container">
+  <div class="typed-out"> Junior Web Developer</div></div>
+body{
+  background: navajowhite;
+  background-size: cover;
+  font-family: 'Trebuchet MS', sans-serif; 
+}
+.container{
+  display: inline-block;
+}
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  animation: 
+    typing 1s forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 𝗔𝗯𝗼𝘂𝘁 𝗠𝗲
 _____________________________________________________________
 
